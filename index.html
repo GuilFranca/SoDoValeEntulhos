@@ -1,29 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Só Do Vale Entulhos</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
+
+    <!-- Início cabeçalho -->
     <header>
         <img src="./img/CaminhãoSDV.png" alt="Logo da SDV">
     </header>
+    <!-- Fim cabeçalho -->
+
+    <!-- Início tela main -->
     <main>
         <img src="./img/Aluguel de caçamba.png" alt="Aluguel de caçambas e Remoção de Entulhos">
         <img src="./img/caçambaVermelha.png" alt="Foto de uma caçamba">
     </main>
+    <!-- Fim tela main -->
+
+    <!-- Divisão de section qu mostra informações sobre a empresa -->
     <div class="divisao__section">
         <div class="local__atuacao">
             <i class="ri-truck-line"></i>
             <p>Atuamos em <span>Águas lindas</span></p>
         </div>
     </div>
+    <!-- Fim divisão de section -->
+
+    <!-- Section que informa os nossos serviços anteriores -->
     <section class="nossos__servicos">
+        <div class="nossos__servicos__titulo">
+            <img src="./img/nossosServiços-removebg-preview.png" alt="Nossos serviços">
+        </div>
+        <div class="nossos__servicos__container__imgs">
+            <img src="./img/Exemplo nossos servoços.png" alt="Exeplo dos nossos serviços">
+            <img src="./img/Exemplo nossos servoços.png" alt="Exeplo dos nossos serviços">
+            <img src="./img/Exemplo nossos servoços.png" alt="Exeplo dos nossos serviços">
+            <img src="./img/Exemplo nossos servoços.png" alt="Exeplo dos nossos serviços">
+        </div>
+    </section>
+    <!-- Fim section de serviços anteriores -->
+
+    <!-- Section de contato da empresa -->
+    <section class="entre__em__contato">
+
+        <img src="./img/Entre em contato.png" alt="Entre em contato">
+
+        <div class="formulario__contato">
+
+            <form action="https://api.staticforms.xyz/submit" method="post">
+
+                <label class="contact-duplas-label">Nome</label>
+                <input type="text" name="$Nome" placeholder="Digite seu nome" autocomplete="off" required>
+
+                <label class="contact-duplas-label">Email</label>
+                <input type="email" name="$Email" placeholder="Digite seu email" autocomplete="off" required>
+
+                <label class="contact-duplas-label">Telefone</label>
+                <input type="text" name="$Telefone" placeholder="Digite seu telefone" autocomplete="off">
+
+                <label class="contact-duplas-label">Mensagem</label>
+                <textarea name="$Mensagem" cols="30" rows="10" placeholder="Digite sua mensagem"
+                    required></textarea>
+
+                <button type="submit" onclick="tentativa()">Enviar</button>
+
+                <input type="hidden" name="accessKey" value="db7cde18-3f68-458a-8f5f-d978ac9a85bb">
+                <input type="hidden" name="redirectTo" value="http://www.solucaobalancas.com.br/pages_navegation/contato.html">
+
+            </form>
+
+        </div>
 
     </section>
+    <!-- Fim section de contato da empresa -->
+
+    <!-- Início footer -->
+    <footer>
+        <img src="./img/logo_SDV_WPP.png" alt="Logo da SDV">
+
+        <div class="informacoes__footer">
+            <p><i class="ri-phone-fill"></i>(61) 98107-5018</p>
+            <p><i class="ri-whatsapp-line"></i>(61) 98107-5018</p>
+            <p><i class="ri-map-pin-2-fill"></i>Águas lindas</p>
+            <p><i class="ri-mail-line"></i>sdv_123@gmail.com</p>
+        </div>
+    </footer>
+    <!-- Fim footer -->
+
+    <!-- Início dos direitos reservados -->
+    <section class="direitos__reservados">
+        <p>© 2025 SDV-Só do vale entulhos. Todos os direitos reservados <a href="https://github.com/GuilFranca">FranTech</a></p>
+    </section>
+
 </body>
 
 </html>
