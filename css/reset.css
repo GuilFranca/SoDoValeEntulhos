@@ -47,8 +47,17 @@ table {
 	border-spacing: 0;
 }
 
+a{
+	text-decoration: none;
+	color: black;
+}
+
 /* Tira o contorno em volta dos inputs */
 textarea:focus, input:focus, select:focus {
     outline: 0;
 }
 
+/* Tira o contorno em volta dos inputs */
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}

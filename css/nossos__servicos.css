@@ -1,11 +1,11 @@
 .nossos__servicos{
     width: 100%;
-    margin-top: -10px;
     padding-top: 10px;
     padding-bottom: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
 }
 
 .nossos__servicos__titulo{

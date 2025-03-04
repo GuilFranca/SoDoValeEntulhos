@@ -6,7 +6,7 @@
     align-items: center;
     gap: 10px;
     padding: 10px;
-    margin-top: -10px;
+    color: white;
 }
 
 .entre__em__contato__titulo{
@@ -27,6 +27,8 @@
 .formulario__contato form input, .formulario__contato form textarea{
     color: black;
     border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid white;
 }
 
 .formulario__contato form button{
@@ -35,5 +37,7 @@
     width: 50%;
     margin: auto;
     border-radius: 15px;
-    padding: 5px;
+    padding: 8px 0;
+    border: none;
+    margin-top: 5px;
 }
