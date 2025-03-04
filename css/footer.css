@@ -7,7 +7,7 @@ footer{
 }
 
 footer img{
-    width: 150px;
+    width: 100px;
 }
 
 .informacoes__footer{
@@ -16,6 +16,10 @@ footer img{
     gap: 5px;
 }
 
+.informacoes__footer p{
+    font-size: 14px;
+}
+
 .informacoes__footer i{
-    font-size: 20px;
+    font-size: 14px;
 }
