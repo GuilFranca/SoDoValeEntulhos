@@ -61,3 +61,7 @@ textarea:focus, input:focus, select:focus {
 textarea:focus, input:focus, select:focus {
     outline: 0;
 }
+
+*{
+	box-sizing: border-box;
+}

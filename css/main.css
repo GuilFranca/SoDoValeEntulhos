@@ -8,6 +8,7 @@ main{
     justify-content: center;
     align-items: center;
     padding: 10px;
+    box-sizing: border-box;
 }
 
 .titulo__main{
