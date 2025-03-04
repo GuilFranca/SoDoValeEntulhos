@@ -13,6 +13,10 @@
     width: 75%;
 }
 
+.formulario__contato{
+    width: 75%;
+}
+
 .formulario__contato form{
     display: flex;
     flex-direction: column;
