@@ -108,6 +108,7 @@ table {
 * {
     /* Tira o contorno azul dos cliques no mobile */
     -webkit-tap-highlight-color: transparent;
+	box-sizing: border-box;
 }
 
 /* Tira o contorno em volta dos inputs */

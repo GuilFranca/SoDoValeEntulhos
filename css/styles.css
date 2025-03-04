@@ -9,3 +9,9 @@
 
 /* Importando o estilo do header */
 @import url("./header.css");
+
+/* Importando o estilo do main */
+@import url("./main.css");
+
+/* Importando o estilo da divisao de sections */
+@import url("./divisao__section.css");

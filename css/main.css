@@ -1,0 +1,20 @@
+main{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/planoFundoEfeito.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.titulo__main{
+    margin-top: 15px;
+    width: 245px;
+}
+
+.cacamba__main{
+    width: 300px;
+}
