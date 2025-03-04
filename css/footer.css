@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+footer img{
+    width: 150px;
+}
+
+.informacoes__footer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.informacoes__footer i{
+    font-size: 20px;
+}

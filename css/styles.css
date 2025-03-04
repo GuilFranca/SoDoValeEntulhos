@@ -18,3 +18,9 @@
 
 /* Importando o estilo da section nossos serviços */
 @import url("./nossos__servicos.css");
+
+/* Importando o estilo da section entre em contato */
+@import url("./entre__em__contato.css");
+
+/* Importando o estilo do footer */
+@import url("./footer.css");
