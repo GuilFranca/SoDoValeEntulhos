@@ -15,3 +15,6 @@
 
 /* Importando o estilo da divisao de sections */
 @import url("./divisao__section.css");
+
+/* Importando o estilo da section nossos serviços */
+@import url("./nossos__servicos.css");

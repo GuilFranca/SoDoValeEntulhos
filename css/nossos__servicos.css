@@ -1,0 +1,22 @@
+.nossos__servicos{
+    width: 100%;
+    margin-top: -10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nossos__servicos__titulo{
+    width: 225px;
+}
+
+.nossos__servicos__container__imgs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nossos__servicos__imgs{
+    width: 225px;
+}
