@@ -27,3 +27,7 @@
 
 /* Importando o estilo da section direitos reservados */
 @import url("./direitos__reservados.css");
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
