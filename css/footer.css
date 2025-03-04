@@ -16,13 +16,13 @@ footer img{
 .informacoes__footer{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
 }
 
 .informacoes__footer p{
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .informacoes__footer i{
-    font-size: 14px;
+    font-size: 18px;
 }
