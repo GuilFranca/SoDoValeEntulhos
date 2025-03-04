@@ -1,4 +1,11 @@
 /* Importando a biblioteca remixixon */
 @import url("https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css");
 
+/* Importando o reset */
 @import url("./reset.css");
+
+/* Importando fonte */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Importando o estilo do header */
+@import url("./header.css");

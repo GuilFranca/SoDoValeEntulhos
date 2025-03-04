@@ -114,3 +114,7 @@ table {
 textarea:focus, input:focus, select:focus {
     outline: 0;
 }
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
