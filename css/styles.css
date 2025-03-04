@@ -24,3 +24,6 @@
 
 /* Importando o estilo do footer */
 @import url("./footer.css");
+
+/* Importando o estilo da section direitos reservados */
+@import url("./direitos__reservados.css");

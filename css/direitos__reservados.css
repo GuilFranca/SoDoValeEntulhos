@@ -1,0 +1,12 @@
+.direitos__reservados{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    padding: 25px;
+}
+
+.direitos__reservados p{
+    text-align: center;
+}
