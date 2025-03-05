@@ -1,4 +1,4 @@
-main{
+main {
     display: flex;
     flex-direction: column;
     background-image: url(../img/planoFundoEfeito.png);
@@ -11,10 +11,25 @@ main{
     box-sizing: border-box;
 }
 
-.titulo__main{
+.titulo__main {
     width: 90%;
 }
 
-.cacamba__main{
+.cacamba__main {
     width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        background-size: cover; /* Faz com que a imagem do background ocupe todo o espaço disponível */
+
+    }
+
+    .titulo__main {
+        width: 35%;
+    }
+
+    .cacamba__main {
+        width: 35%;
+    }
 }

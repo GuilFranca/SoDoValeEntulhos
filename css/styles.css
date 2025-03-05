@@ -31,3 +31,21 @@
 body {
 	font-family: 'Poppins', sans-serif;
 }
+
+.none__descktop{
+	display: flex;
+}
+
+.none__mobile{
+	display: none;
+}
+
+@media screen and (min-width: 768px){
+	.none__descktop{
+		display: none;
+	}
+
+	.none__mobile{
+		display: flex;
+	}
+}

@@ -21,3 +21,9 @@
 .divisao__informacoes span{
     font-weight: bold;
 }
+
+@media screen and (min-width: 768px){
+    .divisao__section{
+        justify-content: space-around;
+    }
+}

@@ -27,7 +27,6 @@
 
 .formulario__contato form input, .formulario__contato form textarea{
     color: black;
-    border-radius: 15px;
     font-family: 'Poppins', sans-serif;
     border: 1px solid white;
 }
@@ -37,8 +36,23 @@
     color: white;
     width: 50%;
     margin: auto;
-    border-radius: 15px;
     padding: 8px 0;
     border: none;
     margin-top: 5px;
+    transition: all 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+    .entre__em__contato__titulo{
+        width: 35%;
+    }
+
+    .formulario__contato form{
+        width: 35%;
+        justify-self: center;
+    }
+
+    .formulario__contato form button:hover{
+        background-color: #000000;
+    }
 }

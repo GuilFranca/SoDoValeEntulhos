@@ -13,8 +13,18 @@
 
     <!-- Início cabeçalho -->
     <header>
-        <h1>SDV</h1>
-        <img src="./img/CaminhãoSDV.png" alt="Logo da SDV">
+        <div class="logo__sdv">
+            <h1>SDV</h1>
+            <img src="./img/CaminhãoSDV.png" alt="Logo da SDV">
+        </div>
+
+        <nav class="header__descktop">
+            <ul class="nav__header__descktop">
+                <li><a href="#nossos-servicos">SERVIÇOS</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+        
     </header>
     <!-- Fim cabeçalho -->
 
@@ -33,15 +43,32 @@
             </div>
             <p>Atuamos em <br><span>Águas lindas</span></p>
         </div>
+
+        <div class="divisao__informacoes none__mobile">
+            <div class="divisao__informacoes__icon">
+                <i class="ri-medal-line"></i>
+            </div>
+            <p>Mais de <span>10 anos</span><br>no mercado</p>
+        </div>
+
+        <div class="divisao__informacoes none__mobile">
+            <div class="divisao__informacoes__icon">
+                <i class="ri-star-fill"></i>
+            </div>
+            <p><span>Cuidado e precisão</span></p>
+        </div>
+
     </div>
     <!-- Fim divisão de section -->
 
     <!-- Section que informa os nossos serviços anteriores -->
-    <section class="nossos__servicos">
+    <section class="nossos__servicos" id="nossos-servicos">
+
         <div class="nossos__servicos__titulo">
             <img src="./img/nossosServiços-removebg-preview.png" alt="Nossos serviços"
                 class="nossos__servicos__titulo__img">
         </div>
+
         <div class="nossos__servicos__container__imgs">
             <img src="./img/Exemplo nossos serviços.png" alt="Exeplo dos nossos serviços"
                 class="nossos__servicos__imgs">
@@ -52,11 +79,12 @@
             <img src="./img/Exemplo nossos serviços.png" alt="Exeplo dos nossos serviços"
                 class="nossos__servicos__imgs">
         </div>
+        
     </section>
     <!-- Fim section de serviços anteriores -->
 
     <!-- Divisão de section qu mostra informações sobre a empresa -->
-    <div class="divisao__section">
+    <div class="divisao__section none__descktop">
         <div class="divisao__informacoes">
             <div class="divisao__informacoes__icon">
                 <i class="ri-medal-line"></i>
@@ -67,7 +95,7 @@
     <!-- Fim divisão de section -->
 
     <!-- Section de contato da empresa -->
-    <section class="entre__em__contato">
+    <section class="entre__em__contato" id="contato">
 
         <img src="./img/Entre em contato.png" alt="Entre em contato" class="entre__em__contato__titulo">
 
@@ -100,7 +128,7 @@
     <!-- Fim section de contato da empresa -->
 
     <!-- Divisão de section qu mostra informações sobre a empresa -->
-    <div class="divisao__section">
+    <div class="divisao__section none__descktop">
         <div class="divisao__informacoes">
             <div class="divisao__informacoes__icon">
                 <i class="ri-star-fill"></i>

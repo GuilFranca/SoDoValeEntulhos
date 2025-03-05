@@ -15,10 +15,6 @@
     width: 100%;
 }
 
-.nossos__servicos__titulo__img{
-    width: 75%;
-}
-
 .nossos__servicos__container__imgs{
     display: flex;
     flex-direction: column;
@@ -28,6 +24,29 @@
     width: 100%;
 }
 
+.nossos__servicos__titulo__img{
+    width: 75%;
+}
+
 .nossos__servicos__imgs{
     width: 75%;
+}
+
+@media screen and (min-width: 768px) {
+    .nossos__servicos__titulo__img {
+        width: 35%;
+    }
+
+    .nossos__servicos__container__imgs{
+        width: 50%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .nossos__servicos__imgs{
+        justify-self: center;
+        width: 100%;
+    }
+
 }
