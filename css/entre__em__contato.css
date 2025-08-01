@@ -32,7 +32,7 @@
 }
 
 .formulario__contato form button{
-    background-color: #1C1717;
+    background-color: #484141;
     color: white;
     width: 50%;
     margin: auto;
@@ -40,6 +40,7 @@
     border: none;
     margin-top: 5px;
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
