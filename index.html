@@ -7,6 +7,7 @@
     <title>Só Do Vale Entulhos</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="icon" href="./img/favicon-SDV.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -24,7 +25,7 @@
                 <li><a href="#contato">CONTATO</a></li>
             </ul>
         </nav>
-        
+
     </header>
     <!-- Fim cabeçalho -->
 
@@ -69,17 +70,33 @@
                 class="nossos__servicos__titulo__img">
         </div>
 
-        <div class="nossos__servicos__container__imgs">
-            <img src="./img/Exemplo nossos serviços.png" alt="Exeplo dos nossos serviços"
-                class="nossos__servicos__imgs">
-            <img src="./img/Exemplo nossos serviços.png" alt="Exeplo dos nossos serviços"
-                class="nossos__servicos__imgs">
-            <img src="./img/Exemplo nossos serviços.png" alt="Exeplo dos nossos serviços"
-                class="nossos__servicos__imgs">
-            <img src="./img/Exemplo nossos serviços.png" alt="Exeplo dos nossos serviços"
-                class="nossos__servicos__imgs">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="./img/Exemplo nossos serviços.png" alt="Exeplo dos nossos serviços"
+                        class="nossos__servicos__imgs">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/Exemplo nossos serviços.png" alt="Exeplo dos nossos serviços"
+                        class="nossos__servicos__imgs">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/Exemplo nossos serviços.png" alt="Exeplo dos nossos serviços"
+                        class="nossos__servicos__imgs">
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
         </div>
-        
+
     </section>
     <!-- Fim section de serviços anteriores -->
 
@@ -118,7 +135,8 @@
                 <button type="submit" onclick="tentativa()">Enviar</button>
 
                 <input type="hidden" name="accessKey" value="db7cde18-3f68-458a-8f5f-d978ac9a85bb">
-                <input type="hidden" name="redirectTo" value="http://www.solucaobalancas.com.br/pages_navegation/contato.html">
+                <input type="hidden" name="redirectTo"
+                    value="http://www.solucaobalancas.com.br/pages_navegation/contato.html">
 
             </form>
 
@@ -143,20 +161,31 @@
         <img src="./img/logo_SDV_WPP.png" alt="Logo da SDV">
 
         <div class="informacoes__footer">
-            <a href="tel=5561981075018" target="_blank" class="link__footer"><p><i class="ri-phone-fill"></i> (61) 98107-5018</p></a>
-            <a href="https://wa.me/5561981075018?text=Vim%20pelo%20site%20e%20tenho%20interesse%20nos%20seus%20servi%C3%A7os!" target="_blank" class="link__footer"><p><i class="ri-whatsapp-line"></i> (61) 98107-5018</p></a>
-            <a href="https://www.instagram.com/sodovaleentulhos/" target="_blank" class="link__footer"><p><i class="ri-instagram-line"></i> sodovaleentulhos</p></a>
-            <a href="mailto:sdv_123@gmail.com" target="_blank" class="link__footer"><p><i class="ri-mail-line"></i> sdv_123@gmail.com</p></a>
+            <a href="tel=5561981075018" target="_blank" class="link__footer">
+                <p><i class="ri-phone-fill"></i> (61) 98107-5018</p>
+            </a>
+            <a href="https://wa.me/5561981075018?text=Vim%20pelo%20site%20e%20tenho%20interesse%20nos%20seus%20servi%C3%A7os!"
+                target="_blank" class="link__footer">
+                <p><i class="ri-whatsapp-line"></i> (61) 98107-5018</p>
+            </a>
+            <a href="https://www.instagram.com/sodovaleentulhos/" target="_blank" class="link__footer">
+                <p><i class="ri-instagram-line"></i> sodovaleentulhos</p>
+            </a>
+            <a href="mailto:sdv_123@gmail.com" target="_blank" class="link__footer">
+                <p><i class="ri-mail-line"></i> sdv_123@gmail.com</p>
+            </a>
         </div>
     </footer>
     <!-- Fim footer -->
 
     <!-- Início dos direitos reservados -->
     <section class="direitos__reservados">
-        <p>© 2025 SDV-Só do vale entulhos. <br>Todos os direitos reservados <a href="https://github.com/GuilFranca">FranTech</a></p>
+        <p>© 2025 SDV-Só do vale entulhos. <br>Todos os direitos reservados <a
+                href="https://github.com/GuilFranca">FranTech</a></p>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/carousel.js"></script>
 </body>
 
 </html>

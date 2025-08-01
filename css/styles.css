@@ -28,6 +28,9 @@
 /* Importando o estilo da section direitos reservados */
 @import url("./direitos__reservados.css");
 
+/* Importando o estilo do carousel */
+@import url("./carousel.css");
+
 body {
 	font-family: 'Poppins', sans-serif;
 }
