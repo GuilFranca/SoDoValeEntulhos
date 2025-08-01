@@ -31,6 +31,9 @@
 /* Importando o estilo do carousel */
 @import url("./carousel.css");
 
+/* Importando o estilo de cards dos nossos serviços */
+@import url("./cards__nossos__serviços.css");
+
 body {
 	font-family: 'Poppins', sans-serif;
 }
