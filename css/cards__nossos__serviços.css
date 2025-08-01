@@ -11,8 +11,8 @@
 .card__nosssos__servicos {
     background-color: #C54242;
     color: white;
-    width: 300px;
-    /* margin: 0 auto; */
+    width: 90%;
+    margin: 0 auto;
     text-align: center;
     padding: 25px 25px;
     max-height: 150px;
